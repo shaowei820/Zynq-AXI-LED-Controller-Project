@@ -28,7 +28,7 @@
 | **Xilinx Vivado** | 建立硬體架構（Block Design）、產生 bitstream 與 XSA 檔案 |
 
 
-### 主要元件：
+## 主要元件：
 
 - `processing_system7_0`：Zynq PS，包含 ARM CPU。
 - `axi_gpio_0`：AXI GPIO IP，用來控制 LED。
@@ -36,3 +36,5 @@
 - `rst_ps7_0_50M`：Reset 模組。
 - `leds_8bits`：輸出腳位，連接到實體 LED。
 
+## DEMO
+https://github.com/user-attachments/assets/774fa24d-8e63-490a-a5d0-78742201dd34
