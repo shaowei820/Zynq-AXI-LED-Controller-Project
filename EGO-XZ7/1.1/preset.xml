@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<ip_presets schema="1.0_0203">
+  <ip_preset preset_proc_name="ps7_preset">
+    <ip vendor="xilinx.com" library="ip" name="processing_system7" version="*">
+      <user_parameters>	
+	<user_parameter name="CONFIG.PCW_UIPARAM_DDR_ROW_ADDR_COUNT " value="15"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RC " value="49.5"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_RAS_MIN " value="36"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_T_FAW " value="30"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 " value="0.115"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 " value="0.133"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 " value="0.112"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 " value="0.09"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY0 " value="0.283"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY1 " value="0.276"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY2 " value="0.29"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY3 " value="0.294"/> 
+    <user_parameter name="CONFIG.PCW_APU_PERIPHERAL_FREQMHZ " value="667"/> 
+    <user_parameter name="CONFIG.PCW_ACT_QSPI_PERIPHERAL_FREQMHZ " value="200.000000"/> 
+    <user_parameter name="CONFIG.PCW_ACT_ENET0_PERIPHERAL_FREQMHZ " value="125.000000"/> 
+    <user_parameter name="CONFIG.PCW_ACT_SDIO_PERIPHERAL_FREQMHZ " value="100.000000"/> 
+    <user_parameter name="CONFIG.PCW_ACT_UART_PERIPHERAL_FREQMHZ " value="100.000000"/> 
+    <user_parameter name="CONFIG.PCW_QSPI_PERIPHERAL_DIVISOR0 " value="5"/> 
+    <user_parameter name="CONFIG.PCW_SDIO_PERIPHERAL_DIVISOR0 " value="10"/> 
+    <user_parameter name="CONFIG.PCW_UART_PERIPHERAL_DIVISOR0 " value="10"/> 
+    <user_parameter name="CONFIG.PCW_FCLK0_PERIPHERAL_DIVISOR0 " value="5"/> 
+    <user_parameter name="CONFIG.PCW_FCLK0_PERIPHERAL_DIVISOR1 " value="4"/> 
+    <user_parameter name="CONFIG.PCW_ENET0_PERIPHERAL_DIVISOR0 " value="8"/> 
+    <user_parameter name="CONFIG.PCW_PCAP_PERIPHERAL_DIVISOR0 " value="5"/> 
+    <user_parameter name="CONFIG.PCW_IOPLL_CTRL_FBDIV " value="30"/> 
+    <user_parameter name="CONFIG.PCW_IO_IO_PLL_FREQMHZ " value="1000.000"/> 
+    <user_parameter name="CONFIG.PCW_SDIO_PERIPHERAL_VALID " value="1"/> 
+    <user_parameter name="CONFIG.PCW_UART_PERIPHERAL_VALID " value="1"/> 
+    <user_parameter name="CONFIG.PCW_EN_EMIO_WP_SDIO0 " value="1"/> 
+    <user_parameter name="CONFIG.PCW_EN_EMIO_WDT " value="1"/> 
+    <user_parameter name="CONFIG.PCW_EN_QSPI " value="1"/> 
+    <user_parameter name="CONFIG.PCW_EN_ENET0 " value="1"/> 
+    <user_parameter name="CONFIG.PCW_EN_SDIO0 " value="1"/> 
+    <user_parameter name="CONFIG.PCW_EN_UART1 " value="1"/> 
+    <user_parameter name="CONFIG.PCW_EN_WDT " value="1"/> 
+    <user_parameter name="CONFIG.PCW_EN_USB0 " value="1"/> 
+    <user_parameter name="CONFIG.PCW_PRESET_BANK1_VOLTAGE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_PARTNO " value="Custom"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_DRAM_WIDTH " value="16 Bits"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_DEVICE_CAPACITY " value="8192 MBits"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_TRAIN_READ_GATE " value="0"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_TRAIN_DATA_EYE " value="0"/> 
+    <user_parameter name="CONFIG.PCW_UIPARAM_DDR_USE_INTERNAL_VREF " value="1"/> 
+    <user_parameter name="CONFIG.PCW_QSPI_PERIPHERAL_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_QSPI_QSPI_IO " value="MIO 1 .. 6"/> 
+    <user_parameter name="CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_QSPI_GRP_SINGLE_SS_IO " value="MIO 1 .. 6"/> 
+    <user_parameter name="CONFIG.PCW_ENET0_PERIPHERAL_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_ENET0_ENET0_IO " value="MIO 16 .. 27"/> 
+    <user_parameter name="CONFIG.PCW_ENET0_GRP_MDIO_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_ENET0_GRP_MDIO_IO " value="MIO 52 .. 53"/> 
+    <user_parameter name="CONFIG.PCW_SD0_PERIPHERAL_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_SD0_SD0_IO " value="MIO 40 .. 45"/> 
+    <user_parameter name="CONFIG.PCW_SD0_GRP_CD_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_SD0_GRP_CD_IO " value="MIO 47"/> 
+    <user_parameter name="CONFIG.PCW_SD0_GRP_WP_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_SD0_GRP_WP_IO " value="EMIO"/> 
+    <user_parameter name="CONFIG.PCW_UART1_PERIPHERAL_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_UART1_UART1_IO " value="MIO 48 .. 49"/> 
+    <user_parameter name="CONFIG.PCW_WDT_PERIPHERAL_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_WDT_WDT_IO " value="EMIO"/> 
+    <user_parameter name="CONFIG.PCW_USB0_PERIPHERAL_ENABLE " value="1"/> 
+    <user_parameter name="CONFIG.PCW_USB0_USB0_IO " value="MIO 28 .. 39"/> 
+    <user_parameter name="CONFIG.PCW_MIO_1_PULLUP " value="enabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_1_IOTYPE " value="LVCMOS 3.3V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_1_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_1_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_2_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_2_IOTYPE " value="LVCMOS 3.3V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_2_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_2_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_3_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_3_IOTYPE " value="LVCMOS 3.3V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_3_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_3_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_4_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_4_IOTYPE " value="LVCMOS 3.3V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_4_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_4_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_5_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_5_IOTYPE " value="LVCMOS 3.3V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_5_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_5_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_6_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_6_IOTYPE " value="LVCMOS 3.3V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_6_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_6_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_16_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_16_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_16_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_16_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_17_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_17_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_17_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_17_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_18_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_18_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_18_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_18_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_19_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_19_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_19_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_19_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_20_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_20_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_20_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_20_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_21_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_21_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_21_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_21_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_22_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_22_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_22_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_22_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_23_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_23_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_23_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_23_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_24_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_24_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_24_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_24_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_25_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_25_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_25_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_25_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_26_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_26_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_26_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_26_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_27_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_27_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_27_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_27_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_28_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_28_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_28_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_28_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_29_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_29_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_29_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_29_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_30_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_30_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_30_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_30_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_31_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_31_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_31_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_31_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_32_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_32_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_32_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_32_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_33_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_33_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_33_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_33_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_34_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_34_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_34_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_34_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_35_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_35_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_35_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_35_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_36_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_36_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_36_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_36_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_37_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_37_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_37_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_37_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_38_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_38_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_38_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_38_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_39_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_39_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_39_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_39_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_40_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_40_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_40_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_40_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_41_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_41_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_41_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_41_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_42_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_42_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_42_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_42_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_43_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_43_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_43_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_43_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_44_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_44_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_44_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_44_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_45_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_45_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_45_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_45_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_47_PULLUP " value="enabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_47_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_47_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_47_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_48_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_48_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_48_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_48_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_49_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_49_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_49_DIRECTION " value="in"/> 
+    <user_parameter name="CONFIG.PCW_MIO_49_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_52_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_52_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_52_DIRECTION " value="out"/> 
+    <user_parameter name="CONFIG.PCW_MIO_52_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_53_PULLUP " value="disabled"/> 
+    <user_parameter name="CONFIG.PCW_MIO_53_IOTYPE " value="LVCMOS 1.8V"/> 
+    <user_parameter name="CONFIG.PCW_MIO_53_DIRECTION " value="inout"/> 
+    <user_parameter name="CONFIG.PCW_MIO_53_SLEW " value="slow"/> 
+    <user_parameter name="CONFIG.PCW_MIO_TREE_PERIPHERALS " value="unassigned#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#SD 0#SD 0#SD 0#SD 0#SD 0#SD 0#unassigned#SD 0#UART 1#UART 1#unassigned#unassigned#Enet 0#Enet 0"/> 
+    <user_parameter name="CONFIG.PCW_MIO_TREE_SIGNALS " value="unassigned#qspi0_ss_b#qspi0_io[0]#qspi0_io[1]#qspi0_io[2]#qspi0_io[3]#qspi0_sclk#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#tx_clk#txd[0]#txd[1]#txd[2]#txd[3]#tx_ctl#rx_clk#rxd[0]#rxd[1]#rxd[2]#rxd[3]#rx_ctl#data[4]#dir#stp#nxt#data[0]#data[1]#data[2]#data[3]#clk#data[5]#data[6]#data[7]#clk#cmd#data[0]#data[1]#data[2]#data[3]#unassigned#cd#tx#rx#unassigned#unassigned#mdc#mdio"/> 
+
+      </user_parameters>
+    </ip>
+  </ip_preset>
+</ip_presets>
